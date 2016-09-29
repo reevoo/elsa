@@ -11,7 +11,8 @@
                  [cheshire "5.6.3"]
                  [org.clojure/java.jdbc "0.6.2-alpha1"]
                  [org.postgresql/postgresql "9.3-1102-jdbc41"]
-                 [environ "1.1.0"]]
+                 [environ "1.1.0"]
+                 [org.clojure/data.json "0.2.6"]]
 
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
